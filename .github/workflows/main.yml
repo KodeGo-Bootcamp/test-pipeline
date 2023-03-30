@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Setup node
-      - uses: actions/setup-node@v3
+        uses: actions/setup-node@v3
 
       - name: Install dependencies
-      - run: npm install
+        run: npm install
 
       - name: Run test
-      - run: npm test
+        run: npm test
