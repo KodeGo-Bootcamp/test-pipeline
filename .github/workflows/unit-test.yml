@@ -5,7 +5,7 @@ on:
     branches: [main]
       
 jobs:
-  Jest:
+  Jest as:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
